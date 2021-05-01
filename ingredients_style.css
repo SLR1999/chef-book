@@ -1,0 +1,123 @@
+.mainheading {
+    display: inline;
+    text-align: center;
+    text-decoration: wavy;
+    font-size: xx-large;
+    font-family:'Times New Roman', Times, serif;
+    /* font-weight: 1000; */
+    font-style:inherit;
+}
+
+/* The mycheckbox.mycheckbox */
+.mycheckbox {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    color: rgb(7, 7, 7);
+}
+
+/* Hide the browser's default checkbox */
+.mycheckbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.checkboxmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: rgb(157, 221, 229);
+    border-radius: 10px;
+}
+
+/* On mouse-over, add a grey background color */
+.mycheckbox:hover input ~ .checkboxmark {
+    background-color: rgb(147, 153, 238);
+}
+
+/* When the checkbox is checked, add a blue background */
+.mycheckbox input:checked ~ .checkboxmark {
+    background-color: teal;
+    border-radius: 5px;
+}
+
+/* Create the checkboxmark/indicator (hidden when not checked) */
+.checkboxmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkboxmark when checked */
+.mycheckbox input:checked ~ .checkboxmark:after {
+    display: block;
+}
+
+/* Style the checkboxmark/indicator */
+.mycheckbox .checkboxmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid rgb(35, 35, 36);
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.row{
+	display: flex;
+}
+
+.column{
+	flex: 25%;
+	padding: 5px;
+}	
+
+/* .img {
+    display: block;
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* width: 25%;
+    height: 25%; */
+/* } */ 
+
+
+.header {
+    display: block;
+    background-color:teal;
+    color: rgb(241, 234, 234);
+    align-items: center; 
+    align-content: center;
+    text-align: center;
+    text-indent: 2%;
+    height: 15%;
+}
+
+.button {
+    display: block;
+    background-color:teal ;
+    size: 300px;
+    border-radius: 5%;
+    color: rgb(230, 230, 240);
+    height: 7%;
+    width: 20%;
+}
+
+/* a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+} */
+
