@@ -39,7 +39,7 @@
     $result1 = mysqli_query($connection,$sql_query1);
     echo nl2br("It is for: ".mysqli_fetch_assoc($result1)['category']."\n");
     $result1 = mysqli_query($connection,$sql_query1);
-    echo nl2br("You burn: ".mysqli_fetch_assoc($result1)['calories']." calories");
+    echo nl2br("You consume: ".mysqli_fetch_assoc($result1)['calories']." calories");
   ?>
 </h2>
 <h2>Cooking Instructions:</h2>
