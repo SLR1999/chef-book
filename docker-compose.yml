@@ -1,0 +1,24 @@
+version: '3'
+
+services:
+  db:
+    image: mysql:5.7
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: ChefBook
+    ports:
+      - "4000:3306"
+    volumes:
+     - ./SQL:/docker-entrypoint-initdb.d
+
+  web:
+    image: slr1999/chef-book
+    build: .
+    depends_on:
+      - db
+    volumes:
+      - .:/var/www/html
+    ports:
+      - "4001:80"
+    stdin_open: true
+    tty: true
