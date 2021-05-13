@@ -9,7 +9,7 @@ services:
     ports:
       - "4000:3306"
     volumes:
-     - ./SQL:/docker-entrypoint-initdb.d
+     - ./mysql:/docker-entrypoint-initdb.d
 
   web:
     image: slr1999/chef-book
