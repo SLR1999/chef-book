@@ -27,8 +27,8 @@ echo '</form>';
 Search a recipe to cook!</h3>
 <!-- <br/> -->
 <?php 
-echo '<form action="instructions2.php" method="post">';
-echo '<input class = "textbox" type = "text" name="recipe" placeholder="Search Recipe"\> <br/>';
-echo '<input class = "button" type="submit" name="get_instructions" value="Get Instructions!"/>';
+echo '<form action="search.php" method="post">';
+// echo '<input class = "textbox" type = "text" name="recipe" placeholder="Search Recipe"\> <br/>';
+echo '<input class = "button" type="submit" name="search" value="Search!"/>';
 echo '</form>';
 ?>
