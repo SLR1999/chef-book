@@ -4,12 +4,12 @@ pipeline {
     stages {
      stage('Build') {
       steps {
-       sh 'docker-compose build'
+       sh 'docker-compose build --service-ports'
        }
      }
      stage('Up') {
       steps {
-        sh 'docker-compose up --service-ports -d'
+        sh 'docker-compose up -d'
       }
      }
      stage('Docker Hub'){
