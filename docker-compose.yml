@@ -5,7 +5,7 @@ services:
     image: mysql:5.7
     environment:
       MYSQL_ROOT_PASSWORD: password
-      MYSQL_DATABASE: ChefBook
+      MYSQL_DATABASE: mychefbook
     ports:
       - "4000:3306"
     volumes:
