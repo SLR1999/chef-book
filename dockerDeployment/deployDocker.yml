@@ -1,0 +1,10 @@
+---
+- name: Pull Docker image of ChefBook
+  hosts: all
+  vars:
+    ansible_python_interpreter: /usr/bin/python3
+  tasks:
+    - name: Pull image ChefBook
+      docker_image:
+        name: slr1999/chef-book:latest
+        source: pull

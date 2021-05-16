@@ -19,20 +19,25 @@ pipeline {
  	     }
      }
    }
-   stage('Rundeck') {
-      agent any
-      steps {
-        script {
-          step([$class: "RundeckNotifier",
-          rundeckInstance: "Rundeck",
-          shouldFailTheBuild: true,
-          shouldWaitForRundeckJob: true,
-          options: """
-            BUILD_VERSION=$BUILD_NUMBER
-          """,
-          jobId: "eb995eea-0b8d-45a0-bc0e-7b26775bffff"])
-        }
-      }
-    }
+  //  stage('Rundeck') {
+  //     agent any
+  //     steps {
+  //       script {
+  //         step([$class: "RundeckNotifier",
+  //         rundeckInstance: "Rundeck",
+  //         shouldFailTheBuild: true,
+  //         shouldWaitForRundeckJob: true,
+  //         options: """
+  //           BUILD_VERSION=$BUILD_NUMBER
+  //         """,
+  //         jobId: "eb995eea-0b8d-45a0-bc0e-7b26775bffff"])
+  //       }
+  //     }
+  //   }
+  stage('Step 5 Ansible') {
+                steps {
+                    ansiblePlaybook becomeUser: null, colorized: true, disableHostKeyChecking: true, installation: 'Ansible', inventory: 'dockerDeployment/inventory', playbook: 'dockerDeployment/deployDocker.yml', sudoUser: null
+                    }
+            }
  }
 }
