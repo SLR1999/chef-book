@@ -1,0 +1,357 @@
+{
+  "id": "81728902-f4f9-4351-9090-74295366d03f",
+  "version": "2.0",
+  "name": "TestCase1",
+  "url": "http://localhost",
+  "tests": [{
+    "id": "50a3d4e2-51f2-458e-a528-f0013cf468fd",
+    "name": "TestCase1",
+    "commands": [{
+      "id": "0c1371ab-0932-4037-8448-d777721e7244",
+      "comment": "",
+      "command": "open",
+      "target": "/ChefBook/home.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8ed3cad7-7cb8-42bc-bc2d-62b8961ead8b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "790x864",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d4c4abf6-9778-4f27-a915-93749b8624fa",
+      "comment": "",
+      "command": "click",
+      "target": "name=select_ingredients",
+      "targets": [
+        ["name=select_ingredients", "name"],
+        ["css=form:nth-child(4) > .button", "css:finder"],
+        ["xpath=//input[@name='select_ingredients']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a3f4838-c67b-45b9-b59b-66de282a453b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mycheckbox:nth-child(1) > .checkboxmark",
+      "targets": [
+        ["css=.mycheckbox:nth-child(1) > .checkboxmark", "css:finder"],
+        ["xpath=//span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "43a67559-53f7-46f3-bc9b-34198507e16c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mycheckbox:nth-child(23) > .checkboxmark",
+      "targets": [
+        ["css=.mycheckbox:nth-child(23) > .checkboxmark", "css:finder"],
+        ["xpath=//label[23]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "65c7a134-ead6-46a1-9329-55a61a8b99f2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mycheckbox:nth-child(28) > .checkboxmark",
+      "targets": [
+        ["css=.mycheckbox:nth-child(28) > .checkboxmark", "css:finder"],
+        ["xpath=//label[28]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "13002e19-9c2a-43e6-adc1-bd418035c20d",
+      "comment": "",
+      "command": "click",
+      "target": "name=get_recipe",
+      "targets": [
+        ["name=get_recipe", "name"],
+        ["css=.button", "css:finder"],
+        ["xpath=//input[@name='get_recipe']", "xpath:attributes"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a4a801a3-0e2e-4091-b044-10faa7329f09",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(2) .checkboxmark",
+      "targets": [
+        ["css=div:nth-child(2) .checkboxmark", "css:finder"],
+        ["xpath=//div[2]/label/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "889df47e-a838-4cd2-a755-43a148b51643",
+      "comment": "",
+      "command": "click",
+      "target": "name=get_instructions",
+      "targets": [
+        ["name=get_instructions", "name"],
+        ["css=.button", "css:finder"],
+        ["xpath=//input[@name='get_instructions']", "xpath:attributes"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "70ae309b-161b-462f-9ce4-40851572c789",
+      "comment": "",
+      "command": "click",
+      "target": "name=select_ingredients",
+      "targets": [
+        ["name=select_ingredients", "name"],
+        ["css=form:nth-child(4) > .button", "css:finder"],
+        ["xpath=//input[@name='select_ingredients']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad5c6595-d5b3-4417-8894-69ea5666520a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mycheckbox:nth-child(5) > .checkboxmark",
+      "targets": [
+        ["css=.mycheckbox:nth-child(5) > .checkboxmark", "css:finder"],
+        ["xpath=//label[5]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce62e7ad-3eba-4876-b600-66bf49cd0450",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mycheckbox:nth-child(4) > .checkboxmark",
+      "targets": [
+        ["css=.mycheckbox:nth-child(4) > .checkboxmark", "css:finder"],
+        ["xpath=//label[4]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f463474-3828-4395-bf82-4bb85213994a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mycheckbox:nth-child(11) > .checkboxmark",
+      "targets": [
+        ["css=.mycheckbox:nth-child(11) > .checkboxmark", "css:finder"],
+        ["xpath=//label[11]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "df4f3021-8d77-42f0-b781-781461a5b8fd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mycheckbox:nth-child(9) > .checkboxmark",
+      "targets": [
+        ["css=.mycheckbox:nth-child(9) > .checkboxmark", "css:finder"],
+        ["xpath=//label[9]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a47695d-9b76-4e7b-bc9a-3ebb08560bce",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mycheckbox:nth-child(18) > .checkboxmark",
+      "targets": [
+        ["css=.mycheckbox:nth-child(18) > .checkboxmark", "css:finder"],
+        ["xpath=//label[18]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "29f115b2-7ee3-4aea-b29c-46a0b3de03e5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mycheckbox:nth-child(19) > .checkboxmark",
+      "targets": [
+        ["css=.mycheckbox:nth-child(19) > .checkboxmark", "css:finder"],
+        ["xpath=//label[19]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7ce82a7-586d-4209-9d29-d4f9bef1ba0f",
+      "comment": "",
+      "command": "click",
+      "target": "name=get_recipe",
+      "targets": [
+        ["name=get_recipe", "name"],
+        ["css=.button", "css:finder"],
+        ["xpath=//input[@name='get_recipe']", "xpath:attributes"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "56233071-8c40-4b42-8109-5cf6bd16ebba",
+      "comment": "",
+      "command": "click",
+      "target": "css=.checkboxmark",
+      "targets": [
+        ["css=.checkboxmark", "css:finder"],
+        ["xpath=//span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5805be6f-a961-4d57-951f-4febe871ef16",
+      "comment": "",
+      "command": "click",
+      "target": "name=get_instructions",
+      "targets": [
+        ["name=get_instructions", "name"],
+        ["css=.button", "css:finder"],
+        ["xpath=//input[@name='get_instructions']", "xpath:attributes"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e598917f-a99a-4f7d-9d48-410633c39176",
+      "comment": "",
+      "command": "click",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=form:nth-child(7) > .button", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//form[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "82979160-0267-48b6-a2cb-5e98e1ce3879",
+      "comment": "",
+      "command": "click",
+      "target": "name=recipe",
+      "targets": [
+        ["name=recipe", "name"],
+        ["css=.textbox", "css:finder"],
+        ["xpath=//input[@name='recipe']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "982c8409-c8ef-441e-8797-91cd58573fee",
+      "comment": "",
+      "command": "type",
+      "target": "name=recipe",
+      "targets": [
+        ["name=recipe", "name"],
+        ["css=.textbox", "css:finder"],
+        ["xpath=//input[@name='recipe']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Cookie brownies"
+    }, {
+      "id": "873e2c8f-f2b3-4eea-a313-ae7aca37bbb7",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "abe3494a-95bc-4316-8722-e8650ff52229",
+      "comment": "",
+      "command": "click",
+      "target": "name=recipe",
+      "targets": [
+        ["name=recipe", "name"],
+        ["css=.textbox", "css:finder"],
+        ["xpath=//input[@name='recipe']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "118c00c8-aa45-46b8-a0a7-8a9c27598944",
+      "comment": "",
+      "command": "type",
+      "target": "name=recipe",
+      "targets": [
+        ["name=recipe", "name"],
+        ["css=.textbox", "css:finder"],
+        ["xpath=//input[@name='recipe']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "pasta"
+    }, {
+      "id": "0dc234ac-9d90-4faf-a2bc-957b54aa5b22",
+      "comment": "",
+      "command": "click",
+      "target": "name=get_instructions",
+      "targets": [
+        ["name=get_instructions", "name"],
+        ["css=.button:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='get_instructions']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f659a3f-3306-4f02-becc-4328bb3800a5",
+      "comment": "",
+      "command": "click",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=form:nth-child(7) > .button", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//form[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "69f16975-0613-40d4-b551-6e9f5320cbd9",
+      "comment": "",
+      "command": "click",
+      "target": "name=category",
+      "targets": [
+        ["name=category", "name"],
+        ["css=.mycheckbox:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='category']", "xpath:attributes"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4cedf2cb-9f49-4272-99fc-2296d5b393bd",
+      "comment": "",
+      "command": "click",
+      "target": "name=search_cat",
+      "targets": [
+        ["name=search_cat", "name"],
+        ["css=.button:nth-child(13)", "css:finder"],
+        ["xpath=//input[@name='search_cat']", "xpath:attributes"],
+        ["xpath=//form[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "40b10408-0e05-46f7-8946-ef0c28241221",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(2) .checkboxmark",
+      "targets": [
+        ["css=div:nth-child(2) .checkboxmark", "css:finder"],
+        ["xpath=//div[2]/label/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd601109-f373-406b-89a9-6e9f2374f79f",
+      "comment": "",
+      "command": "click",
+      "target": "name=get_instructions",
+      "targets": [
+        ["name=get_instructions", "name"],
+        ["css=.button", "css:finder"],
+        ["xpath=//input[@name='get_instructions']", "xpath:attributes"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "8e1be289-f0ad-48c1-b596-4ec4eefdc6af",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["50a3d4e2-51f2-458e-a528-f0013cf468fd"]
+  }],
+  "urls": ["http://localhost/"],
+  "plugins": []
+}
