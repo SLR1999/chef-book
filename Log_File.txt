@@ -1,0 +1,32 @@
+2021-05-17 22:52:05 INFO-open on /ChefBook/home.php OK
+2021-05-17 22:52:05 INFO-setWindowSize on 790x864 OK
+2021-05-17 22:52:05 INFO-click on name=select_ingredients OK
+2021-05-17 22:52:05 INFO-click on css=.mycheckbox:nth-child(1) > .checkboxmark OK
+2021-05-17 22:52:06 INFO-click on css=.mycheckbox:nth-child(23) > .checkboxmark OK
+2021-05-17 22:52:06 INFO-click on css=.mycheckbox:nth-child(28) > .checkboxmark OK
+2021-05-17 22:52:06 INFO-click on name=get_recipe OK
+2021-05-17 22:52:06 INFO-click on css=div:nth-child(2) .checkboxmark OK
+2021-05-17 22:52:07 INFO-click on name=get_instructions OK
+2021-05-17 22:52:07 INFO-click on name=select_ingredients OK
+2021-05-17 22:52:12 INFO-click on css=.mycheckbox:nth-child(5) > .checkboxmark OK
+2021-05-17 22:52:12 INFO-click on css=.mycheckbox:nth-child(4) > .checkboxmark OK
+2021-05-17 22:52:12 INFO-click on css=.mycheckbox:nth-child(11) > .checkboxmark OK
+2021-05-17 22:52:12 INFO-click on css=.mycheckbox:nth-child(9) > .checkboxmark OK
+2021-05-17 22:52:12 INFO-click on css=.mycheckbox:nth-child(18) > .checkboxmark OK
+2021-05-17 22:52:13 INFO-click on css=.mycheckbox:nth-child(19) > .checkboxmark OK
+2021-05-17 22:52:13 INFO-click on name=get_recipe OK
+2021-05-17 22:52:13 INFO-click on css=.checkboxmark OK
+2021-05-17 22:52:14 INFO-click on name=get_instructions OK
+2021-05-17 22:52:14 INFO-click on name=search OK
+2021-05-17 22:52:17 INFO-click on name=recipe OK
+2021-05-17 22:52:17 INFO-type on name=recipe with value Cookie brownies OK
+2021-05-17 22:52:17 INFO-click on css=html OK
+2021-05-17 22:52:18 INFO-click on name=recipe OK
+2021-05-17 22:52:18 INFO-type on name=recipe with value pasta OK
+2021-05-17 22:52:18 INFO-click on name=get_instructions OK
+2021-05-17 22:52:18 INFO-click on name=search OK
+2021-05-17 22:52:21 INFO-click on name=category OK
+2021-05-17 22:52:21 INFO-click on name=search_cat OK
+2021-05-17 22:52:21 INFO-click on css=div:nth-child(2) .checkboxmark OK
+2021-05-17 22:52:21 INFO-click on name=get_instructions OK
+2021-05-17 22:52:22 INFO-'TestCase1' completed successfully
