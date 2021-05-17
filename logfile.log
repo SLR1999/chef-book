@@ -1,0 +1,19 @@
+1. open on /ChefBook/home.php OK 11:12:18
+2. setWindowSize on 790x864 OK 11:12:18
+3. click on name=select_ingredients OK 11:12:18
+4. click on css=.mycheckbox:nth-child(1) > .checkboxmark OK 11:12:18
+5. click on css=.mycheckbox:nth-child(23) > .checkboxmark OK 11:12:18
+6. click on css=.mycheckbox:nth-child(28) > .checkboxmark OK 11:12:19
+7. click on name=get_recipe OK 11:12:19
+8. click on css=div:nth-child(2) .checkboxmark OK 11:12:19
+9. click on name=get_instructions OK 11:12:20
+10. click on name=search OK 11:12:20
+11. click on name=recipe OK 11:12:25
+12. type on name=recipe with value Cookie brownies OK 11:12:25
+13. click on name=get_instructions OK 11:12:25
+14. click on css=.mycheckbox:nth-child(3) > input OK 11:12:25
+15. click on css=.mycheckbox:nth-child(11) > input OK 11:12:28
+16. click on name=search_cat OK 11:12:28
+17. click on css=.checkboxmark OK 11:12:28
+18. click on name=get_instructions OK 11:12:28
+'Testcase1' completed successfully 11:12:29
